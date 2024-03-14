@@ -40,7 +40,7 @@ export default {
                 </h2>
                 
                 <div v-for="tech in project.technologies" :key="tech.id">  
-                    {{ console.log(project.type) }}
+                   
                     <div v-if="project.technologies != null">
                         <span>Tecnologia=></span>
                         <span >
